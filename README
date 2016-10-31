@@ -1,13 +1,3 @@
-Code Challange
-
-
-NOTE:  Ruby was chosen as the language of choice because it provides the most flexible testing framework.
-This challenge could have been implemented directly with bash using system level OpenSSL Libraries.
-Other languages such as JAVA pose a greater challenge is Elliptic Curve (ECDSA) key generation is only faciliated via third party libraries
-
-Enjoy! 
-
-
 Running the application
 > cd lib
 > ./run.rb message_string
