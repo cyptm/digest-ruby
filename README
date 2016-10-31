@@ -1,0 +1,29 @@
+Code Challange
+
+
+NOTE:  Ruby was chosen as the language of choice because it provides the most flexible testing framework.
+This challenge could have been implemented directly with bash using system level OpenSSL Libraries.
+Other languages such as JAVA pose a greater challenge is Elliptic Curve (ECDSA) key generation is only faciliated via third party libraries
+
+Enjoy! 
+
+
+Running the application
+> cd lib
+> ./run.rb message_string
+
+Testing 
+- Install ruby rspec dependencies
+> ./setup.sh
+
+- Run tests
+> cd lib
+> bundle exec rspec
+
+Triggering tests in a continuous integration (CI) environment
+- Use the code/or bash script utility provide by the CI tool
+- and paste the code below to extract and run tests
+
+> cd lib
+> bundle exec rspec
+
